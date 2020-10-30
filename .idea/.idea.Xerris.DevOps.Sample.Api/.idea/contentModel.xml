@@ -29,13 +29,7 @@
             <e p="IModelValidator.cs" t="Include" />
           </e>
         </e>
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="DevOps.Api.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
+        <e p="obj" t="ExcludeRecursive" />
         <e p="Repository" t="Include">
           <e p="IBlogRepository.cs" t="Include" />
         </e>
@@ -59,13 +53,7 @@
             <e p="ModelValidatorTest.cs" t="Include" />
           </e>
         </e>
-        <e p="obj" t="ExcludeRecursive">
-          <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
-              <e p="DevOps.Api.Test.AssemblyInfo.cs" t="Include" />
-            </e>
-          </e>
-        </e>
+        <e p="obj" t="ExcludeRecursive" />
         <e p="Service" t="Include">
           <e p="BlogServiceTest.cs" t="Include" />
         </e>
