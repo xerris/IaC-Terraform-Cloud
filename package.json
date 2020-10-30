@@ -1,0 +1,30 @@
+{
+  "name": "xerris-dev-api",
+  "version": "1.0.0",
+  "description": "AWS Lambdas that support a simple BlogPost site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": " rm -R dist",
+    "package": "rm -r dist & gulp Package",
+    "deploy": "npm run package && dotnet build && cdk deploy --profile xerris",
+    "destroy": "cdk destroy --profile xerris"
+  },
+  "author": "Xerris Inc.",
+  "license": "ISC",
+  "homepage": "https://xerris.com",
+  "dependencies": {
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-cli": "^2.2.0",
+    "gulp-zip": "^5.0.1",
+    "mkdirp": "^0.5.1",
+    "npm": "^6.14.2",
+    "path": "^0.12.7",
+    "shell": "^0.5.0",
+    "yargs": "^14.2.0"
+  },
+  "devDependencies": {
+    "gulp-dotnet-cli": "^1.1.0"
+  }
+}
